@@ -524,6 +524,10 @@
     .contact-link { padding: 18px 0; }
     .contact-link-value { font-size: 13px; }
 
+    /* убрать стрелки у ссылок на мобильной версии */
+    .contact-link-arrow,
+    .project-link span { display: none; }
+
     footer { padding: 24px 20px; flex-direction: column; gap: 6px; text-align: center; }
 
     /* marquee */
@@ -618,8 +622,8 @@
   <div>
     <div class="section-label reveal">01 — О себе</div>
     <p class="about-text reveal reveal-delay-1">
-      Аналитический бэкграунд, продуктовый опыт. Работаю с <strong>cash-flow, SQL-запросами, CustDev, SWOT</strong> — и делаю это <em style="font-family:Georgia,serif;font-weight:400">своими руками</em>.
-      <span class="dim"> Сейчас — frontend-разработчик в стартапе «Агора», поступаю в зарубежные вузы, готовлюсь к IELTS Academic.</span>
+      Аналитический бэкграунд, продуктовый опыт. Работаю с <strong>бизнес-метриками, операционными задачами</strong> — и делаю это <em style="font-family:Georgia,serif;font-weight:400">своими руками</em>.
+      <span class="dim"> Сейчас — frontend-разработчик в стартапе «Агора», набираюсь опыта в бизнесе, поступаю в зарубежные вузы, готовлюсь к IELTS Academic.</span>
     </p>
     <div class="about-stats reveal reveal-delay-2" style="margin-top:48px;">
       <div class="stat">
@@ -740,7 +744,7 @@
       </div>
       <div>
         <div class="exp-title">Бизнес-ассистент</div>
-        <div class="exp-company">Доставка суши</div>
+        <div class="exp-company">Доставка суши «Cut the Roll»</div>
         <ul class="exp-bullets">
           <li>Вела управленческий cash-flow: ежедневный учёт выручки и расходов, сверки — собственник получал актуальную картину без задержек.</li>
           <li>Писала SQL-запросы к базе заказов для сверки выручки и поиска расхождений между кассой, CRM и системой доставки.</li>
